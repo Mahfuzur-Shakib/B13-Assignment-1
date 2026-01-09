@@ -42,7 +42,7 @@ nav .menu a{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    padding: 12px 16px;
+    padding: 16px 16px;
     border: none;
     border-radius: 4px;
     align-items: center;
@@ -60,9 +60,9 @@ nav .menu a{
 
 }
 #banner .banner-container{
-
+/* 
     width: 85%;
-    max-width: 1360px;
+    max-width: 1360px; */
     margin: 0 auto;
     text-align: center;
     padding: 115.5px 120px 179.5px;
@@ -101,7 +101,7 @@ nav .menu a{
     border: none;
     font-size: 16px;
     font-weight: 600;
-    padding: 12px 16px;
+    padding: 16px 16px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     align-items: center;
@@ -136,7 +136,7 @@ nav .menu a{
     margin-bottom: 16px;
 
 }
-.notes-container p{
+.notes-container p, .text-content .text{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
@@ -156,8 +156,100 @@ nav .menu a{
     font-weight: 600px;
     color: #001931;
 }
-.notes-card p{
+.notes-card p, .access-container .text-bellow-btn{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+#brain .brain-container {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 120px auto;
+    gap: 60px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.brain-container .knowledge-image {
+    width: 600px;
+}
+
+.brain-container .text-content .sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    padding-top: 101.5px;
+    padding-bottom: 16px;
+}
+
+.text-content h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+
+}
+
+.checkpoint p{
+    margin-bottom: 16px;
+    
+}
+.checkpoint img {
+    vertical-align: middle;
+}
+
+#early-access .access-container {
+    width: 85%;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.access-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding:80px 40px 16px;
+}
+
+.access-container .section-heading p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.access-container .btn{
+    margin-bottom: 16px;
+}
+.access-container .text-bellow-btn{
+    padding-bottom: 80px;
+}
+footer {
+    background-color: #001931;
+    margin-top: 120px;
+}
+
+.footer-content{
+    display: flex;
+ 
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 120px 120px 80px;
+}
+.footer-content .footer-logo {
+    width: 139px;
+}
+.footer-content p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+}
+.footer-container hr {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
+.footer-container .copyright {
+    color: white;
+    text-align: center;
 }
