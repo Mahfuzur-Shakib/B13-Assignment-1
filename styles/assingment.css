@@ -8,19 +8,18 @@
 .font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+
 }
 header {
     padding: 16px 120px;
 }
 nav {
     display: flex;
-    width: 85%;
     max-width: 1360px;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    margin-bottom:24px;
 }
 
 nav .menu{
@@ -47,6 +46,9 @@ nav .menu a{
     border: none;
     border-radius: 4px;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
 
 }
 #banner {
@@ -79,6 +81,9 @@ nav .menu a{
 
 .banner-container h1 {
     margin-top: 16px;
+    font-size: 72px;
+    line-height: 84px;
+    
 
 }
 .banner-container p {
@@ -90,6 +95,32 @@ nav .menu a{
 
 .banner-container .banner-btn {
     margin-top: 32px;
-    gap: 16px;
+    gap: 16px;    
+}
+.banner-container .banner-btn .see-how-btn {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    color: #FFFFFF;
+    
+}
+#notes {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#notes .notes-container .notes-box {
+    display: flex;
+}
 
+.notes-card img {
+    background-color: #F95555;
+    border-radius: 50%;
 }
