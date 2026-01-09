@@ -22,12 +22,15 @@ nav {
     margin-bottom:24px;
 }
 
+
 nav .menu{
     display: flex;
     list-style: none;
     gap: 32px;
     width: 367px;
+    
 }
+
 
 nav .menu a{
     font-size: 16px;
@@ -35,6 +38,10 @@ nav .menu a{
     color: #000000;
     font-weight: 500;
     text-decoration: none;
+}
+
+nav .menu li:hover {
+    background-color: darkgrey;
 }
 
  .btn {
@@ -60,9 +67,7 @@ nav .menu a{
 
 }
 #banner .banner-container{
-/* 
-    width: 85%;
-    max-width: 1360px; */
+
     margin: 0 auto;
     text-align: center;
     padding: 115.5px 120px 179.5px;
@@ -168,8 +173,7 @@ nav .menu a{
     display: flex;
     margin: 120px auto;
     gap: 60px;
-    /* justify-content: center;
-    align-items: center; */
+
 }
 .brain-container .knowledge-image {
     width: 600px;
@@ -251,6 +255,11 @@ footer {
         display: flex;
         gap: 16px;
 }
+.social-icon a:hover {
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .footer-container hr {
     width: 85%;
     max-width: 1360px;
@@ -266,4 +275,10 @@ footer {
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 30px;
+}
+
+.hover-btn:hover {
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
 }
