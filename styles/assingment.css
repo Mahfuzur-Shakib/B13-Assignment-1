@@ -40,8 +40,9 @@ nav .menu a{
     text-decoration: none;
 }
 
-nav .menu li:hover {
-    background-color: darkgrey;
+nav .menu li a:hover {
+    color: darkgreen;
+
 }
 
  .btn {
@@ -72,10 +73,12 @@ nav .menu li:hover {
     text-align: center;
     padding: 115.5px 120px 179.5px;
 }
+.banner-container button{
+    align-items: center;
+}
 
 #banner .banner-container #early-btn {
     padding: 8px 12px;
-
     width: 229px;
     background-color: #FFFFFF;
     color: #469165;
